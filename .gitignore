@@ -118,7 +118,17 @@ ipython_config.py
 #pdm.toml
 .pdm-python
 .pdm-build/
-
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+# Envs
+.env
+# Data
+data/
+# Docker
+*.log
+/scripts/data/
 # pixi
 #   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
 #pixi.lock

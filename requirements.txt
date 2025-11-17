@@ -1,0 +1,12 @@
+telethon
+python-dotenv
+ultralytics # for YOLOv8 (pin to a stable version in your environment)
+psycopg2-binary
+sqlalchemy
+pandas
+fastapi
+uvicorn
+dagster
+dagit
+dbt-core
+dbt-postgres
