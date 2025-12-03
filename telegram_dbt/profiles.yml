@@ -1,0 +1,12 @@
+telegram_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: root
+      port: 5432
+      dbname: postgres
+      schema: analytics        # where dbt will CREATE models
+      threads: 4

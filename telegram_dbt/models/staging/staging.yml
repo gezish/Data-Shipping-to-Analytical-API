@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_telegram_messages
+    columns:
+      - name: message_id
+        tests:
+          - not_null
+      - name: channel
+        tests:
+          - not_null
+
+  - name: stg_image_detections
+    columns:
+      - name: message_id
+        tests:
+          - not_null
