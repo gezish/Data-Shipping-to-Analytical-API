@@ -10,3 +10,5 @@ dagster
 dagit
 dbt-core
 dbt-postgres
+asyncpg
+pydantic

@@ -1,0 +1,12 @@
+telegram_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: root
+      port: 5432
+      dbname: postgres
+      schema: analytics
+      threads: 4
